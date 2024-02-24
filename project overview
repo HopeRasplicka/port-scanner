@@ -1,0 +1,22 @@
+
+Clone the Repository;
+
+git clone https://github.com/your_username/port-scanner.git
+
+Navigate to the directory;
+
+cd port-scanner
+
+Run the script;
+
+execute the script from the command line using the following syntax:
+
+python port_scanner.py <target_host> <start_port> <end_port>
+
+Replace <target_host> with the IP address or hostname of the target system you want to scan. <start_port> and <end_port> represent the range of ports you want to scan.
+
+python port_scanner.py example.com 1 1000
+
+View the Results:
+
+Once the script completes scanning the specified ports on the target host, it will display the open ports it found.
